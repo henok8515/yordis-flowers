@@ -5,19 +5,18 @@ export default function Slider() {
     <Carousel className=" h-[700px]">
       <div className="relative h-full w-full">
         <img
-          src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+          src="https://images.pexels.com/photos/1488310/pexels-photo-1488310.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="image 1"
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
+        <div className="absolute inset-0 grid h-full w-full place-items-start place-content-center pl-14 text-start bg-black/60">
           <div className="w-3/4 text-center md:w-2/4">
-            <Typography
-              variant="h1"
+            <p
               color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
+              className="mb-4 text-5xl md:text-4xl text-white lg:text-6xl font-thin font-sans"
             >
-              The Beauty of Nature
-            </Typography>
+              For the Queen of Our Lives
+            </p>
             <Typography
               variant="lead"
               color="white"
@@ -41,11 +40,11 @@ export default function Slider() {
       </div>
       <div className="relative h-full w-full">
         <img
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+          src="https://images.pexels.com/photos/226145/pexels-photo-226145.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="image 2"
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
+        <div className="absolute inset-0 grid h-full w-full items-center bg-black/60">
           <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
             <Typography
               variant="h1"
@@ -77,11 +76,11 @@ export default function Slider() {
       </div>
       <div className="relative h-full w-full">
         <img
-          src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+          src="https://images.pexels.com/photos/133507/pexels-photo-133507.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="image 3"
           className="h-full w-full object-cover"
         />
-        <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
+        <div className="absolute inset-0 grid h-full w-full items-end bg-black/50">
           <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
             <Typography
               variant="h1"

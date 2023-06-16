@@ -13,7 +13,7 @@ function Banner1() {
             backgroundImage: `url(${background})`,
             backgroundSize: "cover",
           }}
-          className="transition duration-300 ease-in-out hover:scale-110 relative max-w-sm overflow-hidden h-3/4 w-full rounded-tr-[300px] rounded-bl-[100px]"
+          className="transition duration-300 ease-in-out hover:scale-110 relative max-w-sm overflow-hidden h-3/4 w-full rounded-tr-[200px] rounded-bl-[100px]"
         ></div>
       </div>
       <div className="w-1/3  justify-center items-center flex flex-col">
