@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Banners from "./pages/Banners";
 import Display from "./pages/Slider";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="">
       <Header />
       <Display />
+      <Banners />
     </div>
   );
 }
