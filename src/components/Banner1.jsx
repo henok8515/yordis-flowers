@@ -13,7 +13,7 @@ function Banner1() {
             backgroundImage: `url(${background})`,
             backgroundSize: "cover",
           }}
-          className=" h-3/4 w-full rounded-tr-[300px] rounded-bl-[100px]"
+          className="transition duration-300 ease-in-out hover:scale-110 relative max-w-sm overflow-hidden h-3/4 w-full rounded-tr-[300px] rounded-bl-[100px]"
         ></div>
       </div>
       <div className="w-1/3  justify-center items-center flex flex-col">
@@ -43,14 +43,15 @@ function Banner1() {
             backgroundImage: `url(${background1})`,
             backgroundSize: "cover",
           }}
-          className="rounded-tl-[100px] rounded-br-200px  h-1/2 w-2/4  self-end"
+          className="mr-5 transition duration-300 ease-in-out hover:scale-110 relative max-w-sm overflow-hidden rounded-tl-[100px] rounded-br-200px  h-1/2 w-4/6  self-end"
         ></div>
+
         <div
           style={{
             backgroundImage: `url(${background2})`,
             backgroundSize: "cover",
           }}
-          className="rounded-b-[100px]  h-1/3 w-2/4 self-center "
+          className="transition duration-300 ease-in-out hover:scale-110 relative max-w-sm overflow-hidden  rounded-b-[100px]  h-1/3 w-2/4 self-center "
         ></div>
       </div>
     </div>

@@ -5,7 +5,7 @@ function Header() {
         <nav className="bg-white  border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
           <div className="flex flex-wrap justify-around items-center mx-auto  ">
             <span className="self-center text-pink-400  text-4xl font-semibold whitespace-nowrap dark:text-white">
-              𝓨𝓸𝓻𝓭𝓲'𝓼 𝓕𝓵𝓸𝔀𝓮𝓻𝓼
+              𝓨𝓸𝓻𝓭𝓲'𝓼
             </span>
 
             <div className="flex items-center lg:order-2">
