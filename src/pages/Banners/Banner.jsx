@@ -7,7 +7,7 @@ function Banner() {
   return (
     <div className="flex ">
       <div className="flex text-start h-[700px] justify-center items-center flex-1 flex-col">
-        <div className="w-4/6 transition ease-in-out delay-150 h-full  flex flex-col justify-center ">
+        <div className="w-[70%] transition ease-in-out delay-150 h-full  flex flex-col justify-center ">
           <Typography className="m-4 text-2xl ">WHO WE ARE</Typography>
           <Typography className="m-4 ml-6 text-4xl">
             Online Flower Delivery Experts
@@ -28,7 +28,7 @@ function Banner() {
           backgroundImage: `url(${background})`,
           backgroundSize: "cover",
         }}
-        className=" flex  w-[65%] rounded-tl-[200px] "
+        className=" flex  w-[55%] rounded-tl-[200px] "
       >
         <div
           style={{

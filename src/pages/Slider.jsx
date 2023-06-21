@@ -68,7 +68,7 @@ export default function Slider() {
                 Explore
               </Button>
               <Button size="lg" color="white" variant="text">
-                Gallery
+                Gallerys
               </Button>
             </div>
           </div>
